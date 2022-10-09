@@ -1,0 +1,86 @@
+.tout {
+    background-color: azure;
+}
+.flex-container {
+     display: flex;
+     justify-content:space-around;
+     flex-wrap: wrap;
+}
+.flex-container div {
+     width: 300px;
+     margin-top: 30px;
+
+}
+.card-présentation {
+     display: flex;
+     justify-content: space-between; 
+     display: flex;
+     align-items: center;
+     margin: 50px;
+}
+
+.card-partenariat {
+     display: flex;
+     flex-direction: column;
+     margin: 50px;
+     margin-top: 100px;
+}
+
+.navbar {
+     padding: 20px;
+     border: 1px solid rgb(0, 195, 255);
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+}
+
+.liste {
+     list-style: none;
+     padding: 10px;
+     margin-top: 20px;
+}
+
+
+.sncf {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+}
+
+.img-size {
+     width: 130%;
+     margin-right: 100px;
+}
+
+.img-size1 {
+     width: 60%;
+     margin-right: 100px;
+}
+
+.somfy {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+}
+
+.korian {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+     margin-block-end: 50px;
+}
+
+.contact {
+     background-color: white;
+     text-align: center;    
+     margin-top: 50px;
+     border: 1px solid rgb(0, 195, 255);
+}
+
+@media screen and (max-width:"780px") {
+ body
+    }
+     
